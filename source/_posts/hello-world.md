@@ -78,6 +78,29 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 ## 多台电脑同步
 
+1.新开一个版本库，存放src:
+```bash
+$git init
+$git remote add origin <server>
+$git add .  #添加blog目录下所有文件，注意有个`.`（`.gitignore`声明过的文件不包含在内)
+$git commit -m "first commit" #添加更新说明
+$git push -u origin master #推送更新到云端服务器
+(git rm -r --cached .)
+```
+2.备份_config.yml文件，保密考虑，单独处理
+3.另台机器处理方式：
+```
+$git init
+$git remote add origin <server> #将本地文件和云端仓库映射起来。这步不可以跳过
+$git fetch --all
+$git reset --hard origin/master
+------
+$ cnpm install -g hexo-cli  
+$ cnpm install hexo --save
+$cnpm install
+``` 
+4.之后，两台机器使用是先进行src版本库的同步(git pull origin master)，然后编辑，然后进行hexo d -g. 发布后再将编辑的src版本库同步服务器（$git add . $git commit -m "xxxx" $git push -u origin master）
+
 参考：
 http://blog.csdn.net/jzooo/article/details/46781805
 http://theme-next.iissnan.com/getting-started.html
