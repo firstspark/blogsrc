@@ -88,7 +88,7 @@ $git push -u origin master #推送更新到云端服务器
 (git rm -r --cached .)
 ```
 2.备份_config.yml文件，保密考虑，单独处理
-3.另台机器(比如MAC)处理方式：
+3.另台机器处理方式：
 ```
 $git init
 $git remote add origin <server> #将本地文件和云端仓库映射起来。这步不可以跳过
