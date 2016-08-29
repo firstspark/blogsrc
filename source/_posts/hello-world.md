@@ -76,6 +76,8 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 6.空白行中输入 \* \* \* 来生成分割线。
 
+## 多台电脑同步
+
 参考：
 http://blog.csdn.net/jzooo/article/details/46781805
 http://theme-next.iissnan.com/getting-started.html
