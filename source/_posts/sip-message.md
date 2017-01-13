@@ -2,8 +2,8 @@
 title: SIP消息
 date: 2016-09-05 22:30:54
 tags:
-	-SIP
-	-VOIP
+	- SIP
+	- VOIP
 ---
 SIP消息有两种类型：请求和响应。
 

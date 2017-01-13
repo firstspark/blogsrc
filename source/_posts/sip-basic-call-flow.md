@@ -2,8 +2,8 @@
 title: SIP协议基本呼叫流程
 date: 2016-09-09 12:47:36
 tags:
-	-SIP
-	-VOIP
+	- SIP
+	- VOIP
 ---
 
 ## SIP呼叫流程

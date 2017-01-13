@@ -1,9 +1,9 @@
 ---
-title: SIP协议中请求与响应消息的头域
+title: SIP协议中请求与响应消息都有的头域
 date: 2016-09-14 16:37:00
 tags:
-	-SIP
-	-VOIP
+	- SIP
+	- VOIP
 ---
 
 ## Accept

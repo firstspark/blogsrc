@@ -2,8 +2,8 @@
 title: SIP协议简介
 date: 2016-09-06 17:13:53
 tags:
-	-SIP
-	-VOIP
+	- SIP
+	- VOIP
 ---
 会话发起协议（SIP-Session Initiation Protocol ）是在VoIP技术中最常用的协议之一。它是一种应用层协议，它与其它应用层协议一起工作，以通过互联网控制多媒体通信会话。
 
